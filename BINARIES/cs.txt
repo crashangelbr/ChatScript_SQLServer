@@ -1,0 +1,1 @@
+local mysqlhost=127.0.0.1 mysqlport=3306 mysqldb=chatscript mysqluser=chatuser mysqlpasswd=Senha123@

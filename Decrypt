@@ -1,0 +1,1 @@
+for f in $(find . -name "*.crypt") ; do echo $f && aescrypt -p PASSWORD  -o "${f/.crypt/}" -d $f ; done

@@ -1,0 +1,28 @@
+﻿
+BUG: Tue Aug 18 19:42:48 2020:  volley:6 myexit called with Linux Signal code 1 caller:crash callee:harry at  in sentence: 
+MinReleaseStackGap 86MB MinHeapAvailable 87MB  MaxBuffers used 9 of 80
+
+﻿
+BUG: Tue Aug 18 19:42:48 2020:  volley:0 myexit called with Linux Signal code 1 caller: callee: at  in sentence: 
+MinReleaseStackGap 88MB MinHeapAvailable 87MB  MaxBuffers used 1 of 80
+
+﻿
+BUG: Tue Aug 18 19:42:48 2020:  volley:0 myexit called with Linux Signal code 1 caller:sd callee:harry at  in sentence: 
+MinReleaseStackGap 87MB MinHeapAvailable 87MB  MaxBuffers used 3 of 80
+
+
+BUG: Tue Aug 18 19:42:48 2020:  volley:6 myexit called with crash exit caller:crash callee:harry at  in sentence: 
+MinReleaseStackGap 86MB MinHeapAvailable 87MB  MaxBuffers used 9 of 80
+
+
+BUG: Tue Aug 18 19:42:48 2020:  volley:0 myexit called with crash exit caller:sd callee:harry at  in sentence: 
+MinReleaseStackGap 87MB MinHeapAvailable 87MB  MaxBuffers used 3 of 80
+
+
+BUG: Tue Aug 18 19:42:48 2020:  volley:1 myexit called with Linux Signal code 1 caller:crash callee:harry at  in sentence: 
+MinReleaseStackGap 86MB MinHeapAvailable 87MB  MaxBuffers used 9 of 80
+
+
+BUG: Tue Aug 18 19:42:48 2020:  volley:1 myexit called with crash exit caller:crash callee:harry at  in sentence: 
+MinReleaseStackGap 86MB MinHeapAvailable 87MB  MaxBuffers used 9 of 80
+

@@ -1,0 +1,1 @@
+./ChatScriptMysql local mysqlhost=localhost mysqlport=3306 mysqldb=chatscript mysqluser=chatuser mysqlpasswd=Senha123@ login=crash defaultbot=harry

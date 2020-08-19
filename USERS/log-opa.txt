@@ -1,0 +1,20 @@
+﻿Respond: user:opa bot:postgres ip: (~introductions) 1  show ==> Userfiles  When:Aug18'20-19:22:02 Why:~introductions.2.0.~control.1.0   F:1ms 
+Respond: user:opa bot:postgres ip: (~introductions) 2  show ==> Userfiles  When:Aug18'20-19:22:03 Why:~introductions.2.0.~control.1.0   F:1ms 
+Respond: user:opa bot:postgres ip: (~introductions) 3  show ==> Userfiles  When:Aug18'20-19:22:04 Why:~introductions.2.0.~control.1.0   F:1ms 
+Respond: user:opa bot:postgres ip: (~introductions) 4  close ==> Closed  When:Aug18'20-19:22:11 Why:~introductions.4.0.~control.1.0   F:2ms 
+Respond: user:opa bot:postgres ip: (~introductions) 5  init ==> Db inited  When:Aug18'20-19:22:13 Why:~introductions.1.0.~control.1.0   F:1ms 
+Respond: user:opa bot:postgres ip: (~introductions) 6  show ==> Userfiles  When:Aug18'20-19:22:16 Why:~introductions.2.0.~control.1.0   F:1ms 
+Respond: user:opa bot:postgres ip: (~introductions) 7  close ==> Closed  When:Aug18'20-19:22:19 Why:~introductions.4.0.~control.1.0   F:1ms 
+Respond: user:opa bot:postgres ip: (~introductions) 8  create minhatabela ==> Welcome  When:Aug18'20-19:22:52 Why:~introductions.0.0.~control.1.0   F:24ms 
+Respond: user:opa bot:postgres ip: (~introductions) 9  create ==> Welcome  When:Aug18'20-19:23:03 Why:~introductions.0.0.~control.1.0   F:1ms 
+Respond: user:opa bot:postgres ip: (~introductions) 10  drop ==> Welcome  When:Aug18'20-19:23:06 Why:~introductions.0.0.~control.1.0   F:1ms 
+Respond: user:opa bot:postgres ip: (~introductions) 11  drop ==> Welcome  When:Aug18'20-19:23:08 Why:~introductions.0.0.~control.1.0   F:2ms 
+Respond: user:opa bot:postgres ip: (~introductions) 12  close ==> Welcome  When:Aug18'20-19:23:11 Why:~introductions.0.0.~control.1.0   F:1ms 
+Respond: user:opa bot:postgres ip: (~introductions) 13  init ==> Db inited  When:Aug18'20-19:23:13 Why:~introductions.1.0.~control.1.0   F:1ms 
+Respond: user:opa bot:postgres ip: (~introductions) 14  create ==> Welcome  When:Aug18'20-19:23:16 Why:~introductions.0.0.~control.1.0   F:1ms 
+Respond: user:opa bot:postgres ip: (~introductions) 15  create opa ==> Created.  When:Aug18'20-19:23:21 Why:~introductions.5.0.~control.1.0   F:16ms 
+Respond: user:opa bot:postgres ip: (~introductions) 16  drop opa ==> Dropped  When:Aug18'20-19:23:24 Why:~introductions.6.0.~control.1.0   F:8ms 
+Respond: user:opa bot:postgres ip: (~introductions) 17  close ==> Closed  When:Aug18'20-19:23:28 Why:~introductions.4.0.~control.1.0   F:1ms 
+Respond: user:opa bot:postgres ip: (~introductions) 18  init ==> Db inited  When:Aug18'20-19:28:40 Why:~introductions.1.0.~control.1.0   F:1ms 
+Respond: user:opa bot:postgres ip: (~introductions) 19  show ==> Userfiles  When:Aug18'20-19:28:48 Why:~introductions.2.0.~control.1.0   F:2ms 
+Respond: user:opa bot:postgres ip: (~introductions) 20  close ==> Closed  When:Aug18'20-19:28:50 Why:~introductions.4.0.~control.1.0   F:1ms 

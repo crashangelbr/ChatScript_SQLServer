@@ -1,0 +1,59 @@
+﻿USERS/topic_opa_postgres.txt
+jul2116 Aug18'20-19:22:02 Aug18'20-19:28:48 1597789401-1.5.0.2.1.0 |
+1 19 0 DY 0 2 2 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introductions #pending
+#`end topics
+$botprompt=MYSQL: 
+$userprompt=opa: >
+$cs_control_main=~control
+$cs_token=163583
+$cs_login=opa
+$cs_bot=Postgres
+$cs_randindex=2533
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ show
+ show
+ show
+ close
+ init
+ show
+ close
+ create minhatabela
+ create
+ drop
+ drop
+ close
+ init
+ create
+ create opa
+ drop opa
+ close
+ init
+ show
+#`end user
+ Userfiles
+ Userfiles
+ Userfiles
+ Closed
+ Db inited
+ Userfiles
+ Closed
+ Welcome
+ Welcome
+ Welcome
+ Welcome
+ Welcome
+ Db inited
+ Welcome
+ Created.
+ Dropped
+ Closed
+ Db inited
+ Userfiles
+#`end chatbot
