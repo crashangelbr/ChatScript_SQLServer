@@ -1,0 +1,11 @@
+--2020-08-20 23:53:16--  https://visl.sdu.dk/cgi-bin/visl.pt.cgi?parser=roles
+Resolvendo visl.sdu.dk (visl.sdu.dk)... 130.225.157.210
+Conectando-se a visl.sdu.dk (visl.sdu.dk)|130.225.157.210|:443... conectado.
+A requisição HTTP foi enviada, aguardando resposta... 200 OK
+Tamanho: 0 [text/plain]
+Salvando em: “visl.pt.cgi?parser=roles”
+
+visl.pt.cgi?parser=roles     [<=>                                ]       0  --.-KB/s               visl.pt.cgi?parser=roles     [ <=>                               ]       0  --.-KB/s    em 0s      
+
+2020-08-20 23:53:20 (0,00 B/s) - “visl.pt.cgi?parser=roles” salvo [0/0]
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# ALTER USER postgres PASSWORD 'postgres';
+pg_ctlcluster 11 main start
+

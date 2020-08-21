@@ -1,2 +1,2 @@
-﻿^myfunc O 0 0 G( $_arg1 $_arg2 $_arg3 $_arg4 $_arg5 $_arg6 ) calling: $_arg1 $_arg2 $_arg3 $_arg4 $_arg5 $_arg6 \n `
-^postgres o 0 0 A( ) $cs_token = 4096 | 255 | 512 | 131072 | 1024 | 2048 | 24576 ^addtopic ( ~introductions ) $cs_control_main = ~control $userprompt = ^"%user: >" $botprompt = ^"MYSQL: " `
+﻿^postgres o 0 0 A( ) $cs_token = 4096 | 255 | 512 | 131072 | 1024 | 2048 | 24576 ^addtopic ( ~introductions ) $cs_control_main = ~control $userprompt = ^"%user: >" $botprompt = ^"POSTGRES: " `
+^visl o 0 0 B( ^arg ) ^0 `

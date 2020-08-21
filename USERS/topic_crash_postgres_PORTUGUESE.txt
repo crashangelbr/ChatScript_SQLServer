@@ -1,0 +1,22 @@
+USERS/topic_crash_postgres_PORTUGUESE.txt
+jul2116 Aug20'20-21:37:45 0 0 |
+1 0 0 DY 0 2 2 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introductions #pending
+#`end topics
+$botprompt=MYSQL: 
+$userprompt=crash: >
+$cs_control_main=~control
+$cs_token=163583
+$cs_login=crash
+$cs_bot=Postgres
+$cs_randindex=2326
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+#`end user
+ Welcome
+#`end chatbot

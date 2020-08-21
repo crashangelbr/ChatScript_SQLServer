@@ -1,0 +1,21 @@
+﻿ChatScript Version 10.5  compiled Aug 18 2020 13:53:12
+No such directory No such file or directory
+
+>>Reading folder RAWDATA/HARRY/
+
+----Reading file simplecontrol.top   
+Reading outputmacro: ^postgres
+Reading table ^tbl:defaultbot
+Reading topic ~control
+
+----Reading file introductions.top   
+Reading outputmacro: ^visl
+Reading topic ~introductions
+
+<<end folder RAWDATA/HARRY
+No errors or warnings
+
+
+
+Finished compile
+

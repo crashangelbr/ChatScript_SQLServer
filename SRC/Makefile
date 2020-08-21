@@ -12,7 +12,7 @@
 # 2. make clean mysqlserver
 
 # Note: to build mysql targets on Ubuntu:
-# sudo apt-get install libmysqlclient-dev
+# sudo apt-get install libmysqlclient-dev libcurl4-openssl-dev libmariadb-dev-compat libmariadb-dev
 
 # store executable names in make variables so that cleanall target works
 executable.server=../BINARIES/ChatScript

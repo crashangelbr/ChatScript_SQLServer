@@ -9,135 +9,136 @@
 # Complexity of rule full_rule_tag_with_possible_label rule_kind complexity_metric (complexity metric for rule) 
 # bot: name_of_macro_it_happens_in botid (possible bot macro) 
 
-file: 0  /home/developer/ChatScript/RAWDATA/HARRY/introductions.top
-    macro: 1  ^myfunc
-          line: 2 0  # calling: $_arg1 $_arg2 $_arg3 
-          Complexity of ^myfunc: 1
-    topic: 4  ~introductions
-        rule: 5  ~introductions.0.0- t: 
-          line: 5 0  # ^keep ( ) welcome 
-          Complexity of rule ~introductions.0.0- t: 1
-        rule: 6  ~introductions.1.0 u: 
-          line: 6 0  # ^mysqlinit ( "host=localhost p
-          line: 7 89  # db inited 
-          Complexity of rule ~introductions.1.0- u: 1
-        rule: 8  ~introductions.2.0 u: 
-          line: 8 0  # ^mysqlquery ( "SHOW TABLES" ) 
-          Complexity of rule ~introductions.2.0- u: 1
-        rule: 9  ~introductions.3.0 u: 
-          line: 9 0  # ^mysqlquery ( "describe extra"
-          Complexity of rule ~introductions.3.0- u: 1
-        rule: 10  ~introductions.4.0 u: 
-          line: 10 0  # ^mysqlclose ( ) closed 
-          Complexity of rule ~introductions.4.0- u: 1
-        rule: 11  ~introductions.5.0 u: 
-          line: 11 0  # ^mysqlquery ( "^ CREATE TABLE 
-          Complexity of rule ~introductions.5.0- u: 1
-        rule: 12  ~introductions.6.0 u: 
-          line: 12 0  # ^mysqlquery ( "^ DROP TABLE '_
-          Complexity of rule ~introductions.6.0- u: 1
-        rule: 13  ~introductions.7.0 u: 
-          Complexity of rule ~introductions.7.0- u: 1
-file: 0  /home/developer/ChatScript/RAWDATA/HARRY/simplecontrol.top
-    macro: 1  ^postgres
-          line: 2 0  # $cs_token = 4096 | 255 | 512 |
-          line: 3 60  # ^addtopic ( ~introductions ) 
-          line: 4 89  # $cs_control_main = ~control 
-          line: 5 117  # $userprompt = ^"%user: >" 
-          line: 6 143  # $botprompt = ^"MYSQL: " 
+file: 0  /home/crash/ChatScript_SQLServer/RAWDATA/HARRY/simplecontrol.top
+    macro: 4  ^postgres
+          line: 5 0  # $cs_token = 4096 | 255 | 512 |
+          line: 6 60  # ^addtopic ( ~introductions ) 
+          line: 7 89  # $cs_control_main = ~control 
+          line: 8 117  # $userprompt = ^"%user: >" 
+          line: 9 143  # $botprompt = ^"POSTGRES: " 
           Complexity of ^postgres: 1
-    topic: 14  ~control
-        rule: 17  ~control.0.0 u: 
-          line: 18 0  # ^gambit ( ~introductions ) 
+    topic: 17  ~control
+        rule: 20  ~control.0.0 u: 
+          line: 21 0  # ^gambit ( ~introductions ) 
           Complexity of rule ~control.0.0- u: 1
-        rule: 20  ~control.1.0 u: 
-          line: 22 0  # $$currenttopic = %topic 
-          if 24 28  
-          ifend 24 93  
-          line: 24 24  # ^if 00m( %response == 0 ) 00I{
-          if 26 98  
-          line: 26 94  # ^if 00D( %length == 0 and %res
-          line: 27 140  # { 
-          line: 28 142  # ^nofail ( TOPIC ^gambit ( $$cu
-          ifend 29 192  
-          line: 29 187  # } 004 
-          if 31 197  
-          ifend 31 275  
-          line: 31 193  # ^if 00m( %response == 0 ) 00V{
-          if 33 280  
-          line: 33 276  # ^if 00m( %response == 0 ) aaa
-          line: 34 305  # { 
-          line: 35 307  # @8 = ^keywordtopics ( ) 
-          loop 36 337  
-          line: 36 331  # ^loop ( -1 ) aaa 
-          line: 37 348  # { 
-          line: 38 350  # $$topic = ^first ( @8subject )
-          line: 39 381  # ^nofail ( TOPIC ^respond ( $$t
-          if 40 424  
-          line: 40 420  # ^if 00m( %response != 0 ) aaa
-          line: 41 449  # { 
-          line: 42 451  # ^end ( RULE ) 
-          ifend 43 470  
-          line: 43 465  # } 004 
-          loopend 44 473  
-          line: 44 471  # } 
-          ifend 45 478  
-          line: 45 473  # } 004 
-          if 48 483  
-          line: 48 479  # ^if 00F( %outputrejoinder or %
-          line: 49 527  # { 
-          line: 50 529  # ^end ( TOPIC ) 
-          ifend 51 549  
-          line: 51 544  # } 004 
-          if 53 554  
-          ifend 53 662  
-          line: 53 550  # ^if 00R( %response == 0 and ^m
-          if 55 667  
-          line: 55 663  # ^if 00m( %response == 0 ) aaa
-          line: 56 692  # { 
-          line: 57 694  # @8 = ^keywordtopics ( ) 
-          loop 58 724  
-          line: 58 718  # ^loop ( -1 ) aaa 
-          line: 59 735  # { 
-          line: 60 737  # $$topic = ^first ( @8subject )
-          line: 61 768  # ^nofail ( TOPIC ^gambit ( $$to
-          if 62 810  
-          line: 62 806  # ^if 00m( %response != 0 ) aaa
-          line: 63 835  # { 
-          line: 64 837  # ^end ( RULE ) 
-          ifend 65 856  
-          line: 65 851  # } 004 
-          loopend 66 859  
-          line: 66 857  # } 
-          ifend 67 864  
-          line: 67 859  # } 004 
-          if 68 869  
-          ifend 68 946  
-          line: 68 865  # ^if 00m( %response == 0 ) 00U{
-          if 70 951  
-          line: 70 947  # ^if 00m( %response == 0 ) aaa
-          line: 71 976  # { 
-          line: 72 978  # @8 = ^gambittopics ( ) 
-          loop 73 1007  
-          line: 73 1001  # ^loop ( -1 ) aaa 
-          line: 74 1018  # { 
-          line: 75 1020  # $$topic = ^pick ( @8subject ) 
-          line: 76 1050  # ^nofail ( TOPIC ^gambit ( $$to
-          if 77 1092  
-          line: 77 1088  # ^if 00m( %response != 0 ) aaa
-          line: 78 1117  # { 
-          line: 79 1119  # ^end ( RULE ) 
-          ifend 80 1138  
-          line: 80 1133  # } 004 
-          loopend 81 1141  
-          line: 81 1139  # } 
-          ifend 82 1146  
-          line: 82 1141  # } 004 
-          if 84 1151  
-          line: 84 1147  # ^if 00m( %response == 0 ) aaa
-          line: 85 1176  # { 
-          line: 86 1178  # ^repeat ( ) 
-          line: 87 1190  # I don't know what to say. 
-          line: 88 1216  # } aaa 
-          ifend 90 1221  
+        rule: 23  ~control.1.0 u: 
+          line: 25 0  # $$currenttopic = %topic 
+          if 27 28  
+          ifend 27 93  
+          line: 27 24  # ^if 00m( %response == 0 ) 00I{
+          if 29 98  
+          line: 29 94  # ^if 00D( %length == 0 and %res
+          line: 30 140  # { 
+          line: 31 142  # ^nofail ( TOPIC ^gambit ( $$cu
+          ifend 32 192  
+          line: 32 187  # } 004 
+          if 34 197  
+          ifend 34 275  
+          line: 34 193  # ^if 00m( %response == 0 ) 00V{
+          if 36 280  
+          line: 36 276  # ^if 00m( %response == 0 ) aaa
+          line: 37 305  # { 
+          line: 38 307  # @8 = ^keywordtopics ( ) 
+          loop 39 337  
+          line: 39 331  # ^loop ( -1 ) aaa 
+          line: 40 348  # { 
+          line: 41 350  # $$topic = ^first ( @8subject )
+          line: 42 381  # ^nofail ( TOPIC ^respond ( $$t
+          if 43 424  
+          line: 43 420  # ^if 00m( %response != 0 ) aaa
+          line: 44 449  # { 
+          line: 45 451  # ^end ( RULE ) 
+          ifend 46 470  
+          line: 46 465  # } 004 
+          loopend 47 473  
+          line: 47 471  # } 
+          ifend 48 478  
+          line: 48 473  # } 004 
+          if 51 483  
+          line: 51 479  # ^if 00F( %outputrejoinder or %
+          line: 52 527  # { 
+          line: 53 529  # ^end ( TOPIC ) 
+          ifend 54 549  
+          line: 54 544  # } 004 
+          if 56 554  
+          ifend 56 662  
+          line: 56 550  # ^if 00R( %response == 0 and ^m
+          if 58 667  
+          line: 58 663  # ^if 00m( %response == 0 ) aaa
+          line: 59 692  # { 
+          line: 60 694  # @8 = ^keywordtopics ( ) 
+          loop 61 724  
+          line: 61 718  # ^loop ( -1 ) aaa 
+          line: 62 735  # { 
+          line: 63 737  # $$topic = ^first ( @8subject )
+          line: 64 768  # ^nofail ( TOPIC ^gambit ( $$to
+          if 65 810  
+          line: 65 806  # ^if 00m( %response != 0 ) aaa
+          line: 66 835  # { 
+          line: 67 837  # ^end ( RULE ) 
+          ifend 68 856  
+          line: 68 851  # } 004 
+          loopend 69 859  
+          line: 69 857  # } 
+          ifend 70 864  
+          line: 70 859  # } 004 
+          if 71 869  
+          ifend 71 946  
+          line: 71 865  # ^if 00m( %response == 0 ) 00U{
+          if 73 951  
+          line: 73 947  # ^if 00m( %response == 0 ) aaa
+          line: 74 976  # { 
+          line: 75 978  # @8 = ^gambittopics ( ) 
+          loop 76 1007  
+          line: 76 1001  # ^loop ( -1 ) aaa 
+          line: 77 1018  # { 
+          line: 78 1020  # $$topic = ^pick ( @8subject ) 
+          line: 79 1050  # ^nofail ( TOPIC ^gambit ( $$to
+          if 80 1092  
+          line: 80 1088  # ^if 00m( %response != 0 ) aaa
+          line: 81 1117  # { 
+          line: 82 1119  # ^end ( RULE ) 
+          ifend 83 1138  
+          line: 83 1133  # } 004 
+          loopend 84 1141  
+          line: 84 1139  # } 
+          ifend 85 1146  
+          line: 85 1141  # } 004 
+          if 87 1151  
+          line: 87 1147  # ^if 00m( %response == 0 ) aaa
+          line: 88 1176  # { 
+          line: 89 1178  # ^repeat ( ) 
+          line: 90 1190  # I don't know what to say. 
+          line: 91 1216  # } aaa 
+          ifend 93 1221  
           Complexity of rule ~control.1.0- u: 14
+file: 0  /home/crash/ChatScript_SQLServer/RAWDATA/HARRY/introductions.top
+    macro: 1  ^visl
+          line: 2 0  # ^0 
+          Complexity of ^visl: 1
+    topic: 7  ~introductions
+        rule: 8  ~introductions.0.0- t: 
+          line: 8 0  # ^keep ( ) welcome 
+          Complexity of rule ~introductions.0.0- t: 1
+        rule: 9  ~introductions.1.0 u: 
+          if 10 4  
+          line: 10 0  # ^if 01r( ^dbinit ( dbname = po
+          line: 11 109  # { db opened } aaa 
+          else 12 132  
+          line: 12 127  # else ( 1 ) aaa 
+          ifend 13 159  
+          line: 13 142  # { db failed } 004 
+          Complexity of rule ~introductions.1.0- u: 2
+        rule: 14  ~introductions.2.0 u: 
+          line: 14 0  # $$db_error 
+          Complexity of rule ~introductions.2.0- u: 1
+        rule: 16  ~introductions.3.0 u: 
+          line: 16 0  # $input = %originalinput ^keep 
+          if 17 50  
+          line: 17 46  # ^if 00k( $input != '' ) aaa
+          line: 18 73  # { 
+          line: 20 75  # $_url = ^"curl --silent -X POS
+          line: 21 217  # ^popen ( $_url '^visl ) 
+          line: 23 241  # } aaa 
+          ifend 33 246  
+          Complexity of rule ~introductions.3.0- u: 2

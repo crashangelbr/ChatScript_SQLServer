@@ -1,11 +1,8 @@
-﻿Linux Signal code 1 1 - called myexit at Tue Aug 18 19:42:48 2020
-Linux Signal code 1 1 - called myexit at Tue Aug 18 19:42:48 2020
-Linux Signal code 1 1 - called myexit at Tue Aug 18 19:42:48 2020
-CS terminated at Tue Aug 18 19:42:48 2020
-crash exit 4 - called myexit at Tue Aug 18 19:42:48 2020
-crash exit 4 - called myexit at Tue Aug 18 19:42:48 2020
-CS terminated at Tue Aug 18 19:42:48 2020
-CS terminated at Tue Aug 18 19:42:48 2020
-Linux Signal code 1 1 - called myexit at Tue Aug 18 19:42:48 2020
-crash exit 4 - called myexit at Tue Aug 18 19:42:48 2020
-CS terminated at Tue Aug 18 19:42:48 2020
+﻿Linux Signal code 1 1 - called myexit at Thu Aug 20 23:28:52 2020
+crash exit 4 - called myexit at Thu Aug 20 23:28:52 2020
+CS terminated at Thu Aug 20 23:28:52 2020
+FATAL: bad compile 4 - called myexit at Fri Aug 21 00:50:55 2020
+CS terminated at Fri Aug 21 00:50:55 2020
+Linux Signal code 1 1 - called myexit at Fri Aug 21 01:23:29 2020
+crash exit 4 - called myexit at Fri Aug 21 01:23:29 2020
+CS terminated at Fri Aug 21 01:23:29 2020

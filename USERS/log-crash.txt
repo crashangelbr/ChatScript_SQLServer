@@ -1,1 +1,692 @@
-﻿myexit called with Linux Signal code 1myexit called with crash exitmyexit called with Linux Signal code 1myexit called with crash exit
+﻿Command: :build harry
+Command: :build Harry
+Command: :build0
+Respond: user:crash bot: ip: () 1  :build0 ==>   When:Aug20'20-19:33:36   F:1ms 
+Command: :build 0
+Command: :build 1
+Start: user:crash bot:postgres ip: rand:2326 (~introductions) 0 ==> Welcome  When:Aug20'20-19:34:25 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-19:33:32 0:Aug20'20-19:34:25 F:0 P:0
+unable to connect to mysql
+Respond: user:crash bot:postgres ip: (~introductions) 1  init ==> Unable to connect to mysql  When:Aug20'20-19:43:18 Why:~introductions.7.0.~control.1.0   F:4ms 
+Start: user:crash bot:postgres ip: rand:2327 (~introductions) 1 ==> Welcome  When:Aug20'20-19:44:04 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-19:33:32 0:Aug20'20-19:34:25 F:0 P:Aug20'20-19:43:18
+unable to connect to mysql
+Respond: user:crash bot:postgres ip: (~introductions) 2  init ==> Unable to connect to mysql  When:Aug20'20-19:44:05 Why:~introductions.7.0.~control.1.0   F:2ms 
+unable to connect to mysql
+Respond: user:crash bot:postgres ip: (~introductions) 3  init ==> Unable to connect to mysql  When:Aug20'20-19:46:48 Why:~introductions.7.0.~control.1.0   F:1ms 
+unable to connect to mysql
+Respond: user:crash bot:postgres ip: (~introductions) 4  init ==> Unable to connect to mysql  When:Aug20'20-19:49:52 Why:~introductions.7.0.~control.1.0   F:1ms 
+Start: user:crash bot:postgres ip: rand:2330 (~introductions) 4 ==> Welcome  When:Aug20'20-19:49:57 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-19:33:32 0:Aug20'20-19:34:25 F:0 P:Aug20'20-19:49:52
+unable to connect to mysql
+Respond: user:crash bot:postgres ip: (~introductions) 5  init ==> Unable to connect to mysql  When:Aug20'20-19:49:58 Why:~introductions.7.0.~control.1.0   F:2ms 
+Start: user:crash bot:postgres ip: rand:2331 (~introductions) 5 ==> Welcome  When:Aug20'20-19:51:07 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-19:33:32 0:Aug20'20-19:34:25 F:0 P:Aug20'20-19:49:58
+unable to connect to mysql
+Respond: user:crash bot:postgres ip: (~introductions) 6  init ==> Unable to connect to mysql  When:Aug20'20-19:51:10 Why:~introductions.7.0.~control.1.0   F:2ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2332 (~introductions) 6 ==> Welcome  When:Aug20'20-19:51:20 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-19:51:19 0:Aug20'20-19:34:25 F:0 P:Aug20'20-19:51:10
+unable to connect to mysql
+Respond: user:crash bot:postgres ip: (~introductions) 7  init ==> Unable to connect to mysql  When:Aug20'20-19:51:24 Why:~introductions.7.0.~control.1.0   F:1ms 
+Start: user:crash bot:postgres ip: rand:2333 (~introductions) 7 ==> Welcome  When:Aug20'20-19:52:52 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-19:51:19 0:Aug20'20-19:34:25 F:0 P:Aug20'20-19:51:24
+unable to connect to mysql
+Respond: user:crash bot:postgres ip: (~introductions) 8  init ==> Unable to connect to mysql  When:Aug20'20-19:52:56 Why:~introductions.7.0.~control.1.0   F:2ms 
+Start: user:crash bot:postgres ip: rand:2334 (~introductions) 8 ==> Welcome  When:Aug20'20-19:55:30 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-19:51:19 0:Aug20'20-19:34:25 F:0 P:Aug20'20-19:52:56
+unable to connect to mysql
+Respond: user:crash bot:postgres ip: (~introductions) 9  init ==> Unable to connect to mysql  When:Aug20'20-19:55:33 Why:~introductions.7.0.~control.1.0   F:2ms 
+Start: user:crash bot:postgres ip: rand:2335 (~introductions) 9 ==> Welcome  When:Aug20'20-20:30:18 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-19:51:19 0:Aug20'20-19:34:25 F:0 P:Aug20'20-19:55:33
+Respond: user:crash bot:postgres ip: (~introductions) 10  init ==> Welcome  When:Aug20'20-20:30:20 Why:~introductions.0.0.~control.1.0   F:11ms 
+Command: :commands
+
+---- Debugging commands - 
+:do - Execute the arguments as an output stream, e.g., invoke a function, set variables, etc
+:silent - toggle silent - dont show outputs
+:log - dump message into log file
+:noreact - Disable replying to input
+:notime - Toggle notiming during this topic
+:notrace - Toggle notracing during this topic
+:redo - Back up to turn n and try replacement user input
+:retry - Back up and try replacement user input or just redo last sentence
+:say - Make chatbot say this line
+:skip - Erase next n gambits
+:show - All, Input, Mark, Number, Pos, Stats, Topic, Topics, Why, Reject, Newlines
+:time - Set timing variable (all none prepare match ruleflow pattern query json macro user usercache sql tcp topic)
+:trace - Set trace variable (all none basic prepare match output pattern infer query substitute hierarchy fact control topic pos)
+:why - Show rules causing most recent output
+:authorize - Flip authorization for all debug commands
+:serverlog - Flip authorization for server logging default
+
+---- Fact info - 
+:allfacts - Write all facts to TMP/facts.tmp
+:facts - Display all facts with given word or meaning or fact set
+:userfacts - Display current user facts
+:alldict - Write all words to TMP/dict.tmp
+
+---- Topic info - 
+:gambits - Show gambit sequence of topic
+:pending - Show current pending topics list
+:topicstats - Show stats on all topics or named topic or NORMAL for non-system topics
+:topicinfo - Show information on a topic
+:labelremap - for a topic, internal to label into TMP/labels.txt
+:topics - Show topics that given input resonates with
+:where - What file is the given topic in
+
+---- System info - 
+:commands - Show all :commands
+:context - Display current context labels
+:conceptlist - Show all concepts- or with argument show concepts starting with argument
+:definition - Show code of macro named
+:directories - Show current directories
+:functions - List all defined system ^functions
+:identify - Give version data on this CS
+:macros - List all user-defined ^macros and plans
+:memstats - Show memory allocations
+:list - $ (variables) @ (factsets)  _  (match variables)   ^ (macros)   ~ (topics&concepts)
+:queries - List all defined queries
+:timedfunctions - List all user defined macros currently being timed
+:timedtopics - List all topics currently being timed
+:tracedfunctions - List all user defined macros currently being traced
+:tracedtopics - List all topics currently being traced
+:variables - Display current bot/user/sysytem/match/all variables
+:who - show current login/computer pair
+
+---- Word information - 
+:down - Show wordnet items inheriting from here or concept members
+:concepts - Show concepts triggered by this word
+:findwords - show words matching pattern of letters and *
+:hasflag - List words of given set having or !having some system flag
+:nonset - List words of POS type not encompassed by given set
+:overlap - Direct members of set x that are also in set y somehow
+:up - Display concept structure above a word
+:word - Display information about given word
+:mixedcase - List words occurring in both cases, not part of WordNet
+:dualupper - List words occurring in multiple uppercase forms, not part of WordNet
+
+---- System Control commands - 
+:build - Compile a script - filename {nospell,outputspell,reset}
+:bot - Change to this bot
+:clearlog - Erase user log file
+:crash - Simulate a server crash
+:debug - Initiate debugger
+:flush - Flush server cached user data to files
+:quit - Exit ChatScript
+:reset - Start user all over again, flushing his history
+:restart - Restart Chatscript
+:user - Change to named user, not new conversation
+
+---- Script Testing - 
+:autoreply - [OK,Why] use one of those as all input.
+:common - What concepts have the two words in common.
+:spellit - Show spelling correction traces
+:tokenize - Show results of tokenization
+:prepare - Show results of tokenization, tagging, and marking on a sentence
+:regress - create or test a regression file
+:source - Switch input to named file
+:testpattern - See if a pattern works with an input.
+:testtopic - Try named topic responders on input
+:verify - Given test type & topic, test that rules are accessible. Tests: pattern (default), blocking(default), keyword(default), sample, gambit, all.
+
+---- Document Processing - 
+:document - Switch input to named file/directory as a document {single, echo}
+:wikitext - read wiki xml and write plaintext
+
+---- Analytics - 
+:abstract - Display overview of ChatScript topics
+:coverage - Save execution coverage of ChatScript rules
+:showcoverage - Display execution coverage of ChatScript rules
+:diff - match 2 files and report lines that differ
+:trim - Strip excess off chatlog file to make simple file TMP/tmp.txt
+:removecrlf - echo file  to TMP/tmp.txt with no crlf 
+:ja2source - JA echo csv  to TMP/tmp.txt reformatting to source 
+:ja2starts - JA echo file to TMP/tmp.txt minus short line in column
+:trimdown - echo  to TMP/tmp.txt single word entries from a :down list
+:checklist - echo  to TMP/tmp.txt words in file list that can be verbs
+
+---- internal support - 
+:allmembers - show all members recursive, excluding when members of named concepts
+:compiledp - compile dp bot
+:ingestlog - execute a log file as source
+:dedupe - echo input file to TMP/tmp.txt without duplicate lines)
+:topicdump - Dump topic data suitable for inclusion as extra topics into TMP/tmp.txt (:extratopic or PerformChatGivenTopic)
+:listvariables - List variables into tmp/variables.txt
+:builddict -  basic, layer0, layer1, foreign, or wordnet are options instead of default full
+:buildforeign - regenerate foreign language dictionary given name of language
+:clean - Convert source files to NL instead of CR/LF for unix
+:medtable - Read lines from file, add quotes around them, write to TMP/tmp.txt
+:rewriteconverse - Read lines from file, reformat as conversation,  write to TMP/tmp.txt
+:rewrite2tsv - Read lines from file, reformat as tsv,  write to same file with tsv sufficx
+:quotelines - Read lines from file, add quotes around them, write to TMP/tmp.txt
+:newdiff - Read lines from paired file, note diff lines into tmp/match.txt and tmp/unmatch.txt
+:mergelines - Read lines from sorted file, rewrite only 1 instence of 1st words to TMP/tmp.txt
+:striplog - Read lines from a server log file, reducing them to normal inputs for :source, write to TMP/tmp.txt
+:endpguser - Switch from postgres user topic to file system
+:extratopic - given topic name and file as output from :topicdump, build in core topic and use it thereafter
+:pennformat - rewrite penn tagfile (eg as output from stanford) as one liners
+:penndecode - FILE convert penn parse to simple tag format
+:pennmatch - FILE {raw ambig} compare penn file against internal result
+:pennnoun - locate mass nouns in pennbank
+:pos - Show results of tokenization and tagging
+:sortconcept - Prepare concept file alphabetically
+:translateconcept - take
+:timepos - compute wps average to prepare inputs
+:verifypos - Regress pos-tagging using default REGRESS/postest.txt file or named file
+:verifyspell - Regress spell checker against file
+:verifysubstitutes - Regress test substitutes of all kinds
+:worddump - show words via hardcoded test
+:verifySentence - verification data
+:timelog - avg min and max of a log named
+:countwords - generate counts of words listed in file
+:countcat - generate counts of words listed in file
+Command: :reset
+Start: user:crash bot:postgres ip: rand:2326 (~introductions) 0 ==> Welcome  When:Aug20'20-20:31:04 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-19:51:19 0:Aug20'20-19:34:25 F:0 P:Aug20'20-20:30:20
+Command: :topicstats ~pets
+Concepts 1859 Topics 0 Functions 2 rules 0 empties 0
+  gambits 0  responders 0 (?: 0 s: 0  u: 0) rejoinders 0  
+Start: user:crash bot:postgres ip: rand:2326 (~introductions) 0 ==> Welcome  When:Aug20'20-20:44:47 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-19:51:19 0:Aug20'20-19:34:25 F:0 P:Aug20'20-20:30:20
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2326 (~introductions) 0 ==> Welcome  When:Aug20'20-20:46:11 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-20:46:11 0:Aug20'20-19:34:25 F:0 P:Aug20'20-20:30:20
+Command: :reset
+Start: user:crash bot:postgres ip: rand:2326 (~introductions) 0 ==> Welcome  When:Aug20'20-20:46:14 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-20:46:11 0:Aug20'20-19:34:25 F:0 P:Aug20'20-20:30:20
+Respond: user:crash bot:postgres ip: (~introductions) 1  open ==> Db failed  When:Aug20'20-20:46:16 Why:~introductions.1.0.~control.1.0   F:3ms 
+Start: user:crash bot:postgres ip: rand:2327 (~introductions) 1 ==> Welcome  When:Aug20'20-20:47:11 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-20:46:11 0:Aug20'20-19:34:25 F:0 P:Aug20'20-20:46:16
+Respond: user:crash bot:postgres ip: (~introductions) 2  open ==> Db failed  When:Aug20'20-20:47:14 Why:~introductions.1.0.~control.1.0   F:3ms 
+Start: user:crash bot:postgres ip: rand:2328 (~introductions) 2 ==> Welcome  When:Aug20'20-20:48:22 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-20:46:11 0:Aug20'20-19:34:25 F:0 P:Aug20'20-20:47:14
+Respond: user:crash bot:postgres ip: (~introductions) 3  open ==> Db failed  When:Aug20'20-20:48:24 Why:~introductions.1.0.~control.1.0   F:3ms 
+Start: user:crash bot:postgres ip: rand:2329 (~introductions) 3 ==> Welcome  When:Aug20'20-20:51:12 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-20:46:11 0:Aug20'20-19:34:25 F:0 P:Aug20'20-20:48:24
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2329 (~introductions) 3 ==> Welcome  When:Aug20'20-20:51:16 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-20:51:15 0:Aug20'20-19:34:25 F:0 P:Aug20'20-20:48:24
+Command: :reset
+Start: user:crash bot:postgres ip: rand:2326 (~introductions) 0 ==> Welcome  When:Aug20'20-20:51:18 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-20:51:15 0:Aug20'20-19:34:25 F:0 P:Aug20'20-20:48:24
+Respond: user:crash bot:postgres ip: (~introductions) 1  oi ==> Welcome  When:Aug20'20-20:51:19 Why:~introductions.0.0.~control.1.0   F:3ms 
+Respond: user:crash bot:postgres ip: (~introductions) 2  open ==> Db opened  When:Aug20'20-20:51:21 Why:~introductions.1.0.~control.1.0   F:11ms 
+Start: user:crash bot:postgres ip: rand:2328 (~introductions) 2 ==> Welcome  When:Aug20'20-21:23:39 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-20:51:15 0:Aug20'20-19:34:25 F:0 P:Aug20'20-20:51:21
+Respond: user:crash bot:postgres ip: (~introductions) 3  open ==> Db opened  When:Aug20'20-21:23:41 Why:~introductions.1.0.~control.1.0   F:12ms 
+Command: :commands
+
+---- Debugging commands - 
+:do - Execute the arguments as an output stream, e.g., invoke a function, set variables, etc
+:silent - toggle silent - dont show outputs
+:log - dump message into log file
+:noreact - Disable replying to input
+:notime - Toggle notiming during this topic
+:notrace - Toggle notracing during this topic
+:redo - Back up to turn n and try replacement user input
+:retry - Back up and try replacement user input or just redo last sentence
+:say - Make chatbot say this line
+:skip - Erase next n gambits
+:show - All, Input, Mark, Number, Pos, Stats, Topic, Topics, Why, Reject, Newlines
+:time - Set timing variable (all none prepare match ruleflow pattern query json macro user usercache sql tcp topic)
+:trace - Set trace variable (all none basic prepare match output pattern infer query substitute hierarchy fact control topic pos)
+:why - Show rules causing most recent output
+:authorize - Flip authorization for all debug commands
+:serverlog - Flip authorization for server logging default
+
+---- Fact info - 
+:allfacts - Write all facts to TMP/facts.tmp
+:facts - Display all facts with given word or meaning or fact set
+:userfacts - Display current user facts
+:alldict - Write all words to TMP/dict.tmp
+
+---- Topic info - 
+:gambits - Show gambit sequence of topic
+:pending - Show current pending topics list
+:topicstats - Show stats on all topics or named topic or NORMAL for non-system topics
+:topicinfo - Show information on a topic
+:labelremap - for a topic, internal to label into TMP/labels.txt
+:topics - Show topics that given input resonates with
+:where - What file is the given topic in
+
+---- System info - 
+:commands - Show all :commands
+:context - Display current context labels
+:conceptlist - Show all concepts- or with argument show concepts starting with argument
+:definition - Show code of macro named
+:directories - Show current directories
+:functions - List all defined system ^functions
+:identify - Give version data on this CS
+:macros - List all user-defined ^macros and plans
+:memstats - Show memory allocations
+:list - $ (variables) @ (factsets)  _  (match variables)   ^ (macros)   ~ (topics&concepts)
+:queries - List all defined queries
+:timedfunctions - List all user defined macros currently being timed
+:timedtopics - List all topics currently being timed
+:tracedfunctions - List all user defined macros currently being traced
+:tracedtopics - List all topics currently being traced
+:variables - Display current bot/user/sysytem/match/all variables
+:who - show current login/computer pair
+
+---- Word information - 
+:down - Show wordnet items inheriting from here or concept members
+:concepts - Show concepts triggered by this word
+:findwords - show words matching pattern of letters and *
+:hasflag - List words of given set having or !having some system flag
+:nonset - List words of POS type not encompassed by given set
+:overlap - Direct members of set x that are also in set y somehow
+:up - Display concept structure above a word
+:word - Display information about given word
+:mixedcase - List words occurring in both cases, not part of WordNet
+:dualupper - List words occurring in multiple uppercase forms, not part of WordNet
+
+---- System Control commands - 
+:build - Compile a script - filename {nospell,outputspell,reset}
+:bot - Change to this bot
+:clearlog - Erase user log file
+:crash - Simulate a server crash
+:debug - Initiate debugger
+:flush - Flush server cached user data to files
+:quit - Exit ChatScript
+:reset - Start user all over again, flushing his history
+:restart - Restart Chatscript
+:user - Change to named user, not new conversation
+
+---- Script Testing - 
+:autoreply - [OK,Why] use one of those as all input.
+:common - What concepts have the two words in common.
+:spellit - Show spelling correction traces
+:tokenize - Show results of tokenization
+:prepare - Show results of tokenization, tagging, and marking on a sentence
+:regress - create or test a regression file
+:source - Switch input to named file
+:testpattern - See if a pattern works with an input.
+:testtopic - Try named topic responders on input
+:verify - Given test type & topic, test that rules are accessible. Tests: pattern (default), blocking(default), keyword(default), sample, gambit, all.
+
+---- Document Processing - 
+:document - Switch input to named file/directory as a document {single, echo}
+:wikitext - read wiki xml and write plaintext
+
+---- Analytics - 
+:abstract - Display overview of ChatScript topics
+:coverage - Save execution coverage of ChatScript rules
+:showcoverage - Display execution coverage of ChatScript rules
+:diff - match 2 files and report lines that differ
+:trim - Strip excess off chatlog file to make simple file TMP/tmp.txt
+:removecrlf - echo file  to TMP/tmp.txt with no crlf 
+:ja2source - JA echo csv  to TMP/tmp.txt reformatting to source 
+:ja2starts - JA echo file to TMP/tmp.txt minus short line in column
+:trimdown - echo  to TMP/tmp.txt single word entries from a :down list
+:checklist - echo  to TMP/tmp.txt words in file list that can be verbs
+
+---- internal support - 
+:allmembers - show all members recursive, excluding when members of named concepts
+:compiledp - compile dp bot
+:ingestlog - execute a log file as source
+:dedupe - echo input file to TMP/tmp.txt without duplicate lines)
+:topicdump - Dump topic data suitable for inclusion as extra topics into TMP/tmp.txt (:extratopic or PerformChatGivenTopic)
+:listvariables - List variables into tmp/variables.txt
+:builddict -  basic, layer0, layer1, foreign, or wordnet are options instead of default full
+:buildforeign - regenerate foreign language dictionary given name of language
+:clean - Convert source files to NL instead of CR/LF for unix
+:medtable - Read lines from file, add quotes around them, write to TMP/tmp.txt
+:rewriteconverse - Read lines from file, reformat as conversation,  write to TMP/tmp.txt
+:rewrite2tsv - Read lines from file, reformat as tsv,  write to same file with tsv sufficx
+:quotelines - Read lines from file, add quotes around them, write to TMP/tmp.txt
+:newdiff - Read lines from paired file, note diff lines into tmp/match.txt and tmp/unmatch.txt
+:mergelines - Read lines from sorted file, rewrite only 1 instence of 1st words to TMP/tmp.txt
+:striplog - Read lines from a server log file, reducing them to normal inputs for :source, write to TMP/tmp.txt
+:endpguser - Switch from postgres user topic to file system
+:extratopic - given topic name and file as output from :topicdump, build in core topic and use it thereafter
+:pennformat - rewrite penn tagfile (eg as output from stanford) as one liners
+:penndecode - FILE convert penn parse to simple tag format
+:pennmatch - FILE {raw ambig} compare penn file against internal result
+:pennnoun - locate mass nouns in pennbank
+:pos - Show results of tokenization and tagging
+:sortconcept - Prepare concept file alphabetically
+:translateconcept - take
+:timepos - compute wps average to prepare inputs
+:verifypos - Regress pos-tagging using default REGRESS/postest.txt file or named file
+:verifyspell - Regress spell checker against file
+:verifysubstitutes - Regress test substitutes of all kinds
+:worddump - show words via hardcoded test
+:verifySentence - verification data
+:timelog - avg min and max of a log named
+:countwords - generate counts of words listed in file
+:countcat - generate counts of words listed in file
+Command: :down hi
+   1. hi
+
+ Count=0
+Command: :word house
+
+house (80272): old
+  Properties: NOUN_ABSTRACT VERB_PRESENT VERB_INFINITIVE NOUN VERB NOUN_SINGULAR  Implied: NOUN_INFINITIVE 
+  SystemFlags: common4 common1 grade1_2 grade3_4 grade5_6 verb_directobject  POS-tiebreak: NOUN 
+  ParseBits:   
+  InternalBits: 0x0 
+  Other:     canonical: house 
+  Meanings:
+    verb
+    14: house~14 contain or cover
+    13: house~13 provide housing for
+      synonyms:  domiciliate~1  put_up~9  *house~13 
+
+    noun
+    12: house~12 one of 12 equal areas into which the zodiac is divided
+      synonyms:  planetary_house~1  star_sign~1  sign_of_the_zodiac~1  sign~9  mansion~2  *house~12 
+    11: house~11 the management of a gambling house or casino
+    10: house~10 the members of a religious community living together
+    9: house~9 the audience gathered together in a theatre or cinema
+    8: house~8 an official assembly having legislative powers
+    7: family~4 a social unit living together
+      synonyms:  *family~4  menage~1  household~1  home~4  house~7 
+    6: house~6 the members of a business organization that owns or operates one or more establishments
+      synonyms:  business_firm~1  firm~1  *house~6 
+    5: house~5 aristocratic family line
+    4: theater~1 a building where theatrical performances or motion-picture shows can be presented
+      synonyms:  *theater~1  theatre~1  house~4 
+    3: house~3 a building in which something is sheltered or located
+    2: house~2 a dwelling that serves as living quarters for one or more families
+    1: house~1 play in which children take the roles of father or mother or children and pretend to interact like adults
+  MultiWordHeader length: 4
+  Direct Sets: ~tool ~real_estate ~flammable ~shelter 
+  Facts:
+    ( house reside human )
+    ( house shape rectangular )
+    ( house~n use_to hold_people )
+    ( house~n use_to hold_residents )
+    ( house~n member ~tool x10 )
+    ( wood constituent house )
+    ( realtor sell house )
+    ( protect_people_from_outside_forces why house~n )
+    ( people object house~n )
+    ( provide_a_place_to_live why house~n )
+
+Start: user:crash bot:postgres ip: rand:2329 (~introductions) 3 ==> Welcome  When:Aug20'20-21:37:25 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-20:51:15 0:Aug20'20-19:34:25 F:0 P:Aug20'20-21:23:41
+Start: user:crash bot:postgres ip: rand:2326 (~introductions) 0 ==> Welcome  When:Aug20'20-21:37:45 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-20:51:15 0:Aug20'20-21:37:45 F:0 P:0
+Command: :word casa
+
+casa (282952): old
+  Properties: VERB NOUN_PROPER_SINGULAR NOUN_PROPER_PLURAL 
+  SystemFlags: 
+  ParseBits:   
+  InternalBits: 0x0 
+  Other:     canonical: casa 
+  Direct Sets: 
+  Facts:
+
+Start: user:crash bot:postgres ip: rand:2329 (~introductions) 3 ==> Welcome  When:Aug20'20-21:55:52 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-20:51:15 0:Aug20'20-19:34:25 F:0 P:Aug20'20-21:23:41
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2329 (~introductions) 3 ==> Welcome  When:Aug20'20-21:55:57 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-21:55:56 0:Aug20'20-19:34:25 F:0 P:Aug20'20-21:23:41
+Respond: user:crash bot:postgres ip: (~introductions) 4  casa ==> Welcome  When:Aug20'20-21:56:13 Why:~introductions.0.0.~control.1.0   F:3840ms 
+SkipOOB failed [A
+Respond: user:crash bot:postgres ip: (~introductions) 5   [A ==> Welcome  When:Aug20'20-21:56:27 Why:~introductions.0.0.~control.1.0   F:3580ms 
+Respond: user:crash bot:postgres ip: (~introductions) 6  casa ==> Welcome  When:Aug20'20-21:56:32 Why:~introductions.0.0.~control.1.0   F:2725ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2332 (~introductions) 6 ==> Welcome  When:Aug20'20-21:56:56 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-21:56:56 0:Aug20'20-19:34:25 F:0 P:Aug20'20-21:56:32
+Respond: user:crash bot:postgres ip: (~introductions) 7  casa ==> PostTagger  When:Aug20'20-21:57:01 Why:~introductions.3.0.~control.1.0   F:2695ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2333 (~introductions) 7 ==> Welcome  When:Aug20'20-21:58:44 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-21:58:43 0:Aug20'20-19:34:25 F:0 P:Aug20'20-21:57:01
+Respond: user:crash bot:postgres ip: (~introductions) 8  casa ==> Welcome  When:Aug20'20-21:58:50 Why:~introductions.0.0.~control.1.0   F:3248ms 
+Command: :trace json
+Enabled simple: echo 
+Enabled deep detail: json 
+Disabled simple: match ruleflow variables 
+Disabled mild detail: output pattern input prepare 
+Disabled deep detail: always fact hierarchy infer label macro pos query sample sql substitute tcp topic user userfact treetagger usercache varassign 
+ trace = 553648129 (0x21000001)
+Curl version: libcurl/7.64.0 OpenSSL/1.1.1d zlib/1.2.11 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh2/1.8.0 nghttp2/1.36.0 librtmp/2.3 
+
+....,....Json method/url: get https://visl.sdu.dk/cgi-bin/visl.pt.cgi?parser=roles&visual=cg-dep&symbol=cg&inputlang=pt&text=casa
+
+....,....JSON header: Content-Type:  application/x-www-form-urlencoded 
+....,....JSON header: User-Agent:  Mozilla/5.0 (Windows NT 6.1; Win64; x64) 
+....,....JSON header: Cache-Control:  no-cache 
+....,....JSON header: Accept:  */* 
+....,....JSON header: Accept-Encoding:  identity,*;q=0 
+....,....JSON header: Accept-Language:  pt-BR,br;q=0.9
+
+....,....JsonParse Call: <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">casa</font></b> 	 <font color="maroon">[casa]</font>  &lt;build&gt; <font color="blue"><b>N</b> F S </font> <font color="darkgreen">@NPHR</font> §DENOM #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>
+
+....,....JSON response: 200 size: 252 - <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">casa</font></b> 	 <font color="maroon">[casa]</font>  &lt;build&gt; <font color="blue"><b>N</b> F S </font> <font color="darkgreen">@NPHR</font> §DENOM #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>
+....,....
+Respond: user:crash bot:postgres ip: (~introductions) 9  casa ==> Welcome  When:Aug20'20-21:59:24 Why:~introductions.0.0.~control.1.0   F:2774ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2335 (~introductions) 9 ==> Welcome  When:Aug20'20-22:05:35 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-22:05:35 0:Aug20'20-19:34:25 F:0 P:Aug20'20-21:59:24
+Curl version: libcurl/7.64.0 OpenSSL/1.1.1d zlib/1.2.11 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh2/1.8.0 nghttp2/1.36.0 librtmp/2.3 
+
+....,....,Json method/url: get https://visl.sdu.dk/cgi-bin/visl.pt.cgi?parser=roles&visual=cg-dep&symbol=cg&inputlang=pt&text=casa
+
+....,....,JSON header: Content-Type:  application/x-www-form-urlencoded 
+....,....,JSON header: User-Agent:  Mozilla/5.0 (Windows NT 6.1; Win64; x64) 
+....,....,JSON header: Cache-Control:  no-cache 
+....,....,JSON header: Accept:  */* 
+....,....,JSON header: Accept-Encoding:  identity,*;q=0 
+....,....,JSON header: Accept-Language:  pt-BR,br;q=0.9
+
+....,....,JsonParse Call: <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">casa</font></b> 	 <font color="maroon">[casa]</font>  &lt;build&gt; <font color="blue"><b>N</b> F S </font> <font color="darkgreen">@NPHR</font> §DENOM #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>
+
+....,....,JSON response: 200 size: 252 - <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">casa</font></b> 	 <font color="maroon">[casa]</font>  &lt;build&gt; <font color="blue"><b>N</b> F S </font> <font color="darkgreen">@NPHR</font> §DENOM #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>
+....,....,JsonParse Call: 
+Respond: user:crash bot:postgres ip: (~introductions) 10  casa ==> Welcome  When:Aug20'20-22:05:41 Why:~introductions.0.0.~control.1.0   F:2703ms 
+Command: :trace none
+ trace = 0 (0x0)
+Respond: user:crash bot:postgres ip: (~introductions) 11  casa ==> Welcome  When:Aug20'20-22:05:52 Why:~introductions.0.0.~control.1.0   F:2675ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2337 (~introductions) 11 ==> Welcome  When:Aug20'20-22:06:29 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-22:06:29 0:Aug20'20-19:34:25 F:0 P:Aug20'20-22:05:52
+Respond: user:crash bot:postgres ip: (~introductions) 12  casa ==> Welcome  When:Aug20'20-22:06:33 Why:~introductions.0.0.~control.1.0   F:2669ms 
+SkipOOB failed [A
+Respond: user:crash bot:postgres ip: (~introductions) 13   [A ==> Welcome  When:Aug20'20-22:06:38 Why:~introductions.0.0.~control.1.0   F:2641ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2339 (~introductions) 13 ==> Welcome  When:Aug20'20-22:06:54 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-22:06:54 0:Aug20'20-19:34:25 F:0 P:Aug20'20-22:06:38
+Respond: user:crash bot:postgres ip: (~introductions) 14  casa ==> Welcome  When:Aug20'20-22:06:59 Why:~introductions.0.0.~control.1.0   F:2712ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2340 (~introductions) 14 ==> Welcome  When:Aug20'20-22:08:39 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-22:08:39 0:Aug20'20-19:34:25 F:0 P:Aug20'20-22:06:59
+Respond: user:crash bot:postgres ip: (~introductions) 15  casa ==> Welcome  When:Aug20'20-22:08:46 Why:~introductions.0.0.~control.1.0   F:5491ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2341 (~introductions) 15 ==> Welcome  When:Aug20'20-22:10:10 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-22:10:09 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug20'20-22:08:46
+Respond: user:crash bot:postgres ip: (~introductions) 16  casa ==> Welcome  When:Aug20'20-22:10:14 Why:~introductions.0.0.~control.1.0   F:2716ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2342 (~introductions) 16 ==> Welcome  When:Aug20'20-22:10:27 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-22:10:27 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug20'20-22:10:14
+Respond: user:crash bot:postgres ip: (~introductions) 17  casa ==> Welcome  When:Aug20'20-22:10:31 Why:~introductions.0.0.~control.1.0   F:2428ms 
+myexit called with Linux Signal code 1myexit called with crash exitStart: user:crash bot:postgres ip: rand:2343 (~introductions) 17 ==> Welcome  When:Aug20'20-23:30:11 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-22:10:27 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug20'20-22:10:31
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2343 (~introductions) 17 ==> Welcome  When:Aug20'20-23:30:15 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-23:30:15 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug20'20-22:10:31
+Respond: user:crash bot:postgres ip: (~introductions) 18  home ==> Welcome  When:Aug20'20-23:30:22 Why:~introductions.0.0.~control.1.0   F:5963ms 
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2344 (~introductions) 18 ==> Welcome  When:Aug20'20-23:52:40 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-23:52:39 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug20'20-23:30:22
+Respond: user:crash bot:postgres ip: (~introductions) 19  casa ==> AuthorizedIP.txt  HOW\ TO\ MAKE\ A\ RELEASE.txt  README.md   version.txt \ntopic: test (testing)changes.md   license.txt    README.pdf \ntopic: test (testing)changes.txt   README.html    talk.vbs \ntopic: test (testing)  When:Aug20'20-23:52:43 Why:~introductions.3.0.~control.1.0   F:14ms 
+Start: user:crash bot:postgres ip: rand:2345 (~introductions) 19 ==> Welcome  When:Aug20'20-23:59:26 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-23:52:39 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug20'20-23:52:43
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2345 (~introductions) 19 ==> Welcome  When:Aug20'20-23:59:29 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-23:59:29 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug20'20-23:52:43
+Respond: user:crash bot:postgres ip: (~introductions) 20  casa ==> AuthorizedIP.txt  HOW\ TO\ MAKE\ A\ RELEASE.txt  README.md   version.txt \ntopic: test (testing)changes.md   license.txt    README.pdf \ntopic: test (testing)changes.txt   README.html    talk.vbs \ntopic: test (testing)  When:Aug20'20-23:59:32 Why:~introductions.3.0.~control.1.0   F:15ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2346 (~introductions) 20 ==> Welcome  When:Aug20'20-23:59:40 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug20'20-23:59:40 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug20'20-23:59:32
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2346 (~introductions) 20 ==> Welcome  When:Aug21'20-00:00:48 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:00:47 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug20'20-23:59:32
+Respond: user:crash bot:postgres ip: (~introductions) 21  casa ==> Welcome  When:Aug21'20-00:00:53 Why:~introductions.0.0.~control.1.0   F:14ms 
+Start: user:crash bot:postgres ip: rand:2347 (~introductions) 21 ==> Welcome  When:Aug21'20-00:01:32 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:00:47 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:00:53
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2347 (~introductions) 21 ==> Welcome  When:Aug21'20-00:01:36 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:01:36 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:00:53
+Respond: user:crash bot:postgres ip: (~introductions) 22  casa ==> HTTP/1.1 200 OK  \ntopic: test (testing)Date: Fri, 21 Aug 2020 03:01:41 GMT  \ntopic: test (testing)Server: Apache  \ntopic: test (testing)X-Frame-Options: sameorigin, allow-from http://tekstlab.uio.no/, allow-from https://tekstlab.uio.no/  \ntopic: test (testing)Content-Security-Policy: frame-ancestors 'self' '*.uit.no'  \ntopic: test (testing)Strict-Transport-Security: max-age=63072000; includeSubDomains; preload  \ntopic: test (testing)Content-Length: 0  \ntopic: test (testing)Content-Type: text/plain; charset=utf-8  \ntopic: test (testing)Content-Language: pt  \ntopic: test (testing)\ntopic: test (testing)  When:Aug21'20-00:01:42 Why:~introductions.3.0.~control.1.0   F:2726ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2348 (~introductions) 22 ==> Welcome  When:Aug21'20-00:02:36 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:02:35 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:01:42
+Respond: user:crash bot:postgres ip: (~introductions) 23  casa ==> HTTP/1.1 200 OK  \ntopic: test (testing)Date: Fri, 21 Aug 2020 03:02:41 GMT  \ntopic: test (testing)Server: Apache  \ntopic: test (testing)X-Frame-Options: sameorigin, allow-from http://tekstlab.uio.no/, allow-from https://tekstlab.uio.no/  \ntopic: test (testing)Content-Security-Policy: frame-ancestors 'self' '*.uit.no'  \ntopic: test (testing)Strict-Transport-Security: max-age=63072000; includeSubDomains; preload  \ntopic: test (testing)Vary: Accept-Encoding  \ntopic: test (testing)Transfer-Encoding: chunked  \ntopic: test (testing)Content-Type: text/plain; charset=utf-8  \ntopic: test (testing)Content-Language: pt  \ntopic: test (testing)\ntopic: test (testing)<dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">casa</font></b>   <font color="maroon">[casa]</font>  &lt;build&gt; <font color="blue"><b>N</b> F S </font> <font color="darkgreen">@NPHR</font> §DENOM #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>\ntopic: test (testing)  When:Aug21'20-00:02:42 Why:~introductions.3.0.~control.1.0   F:2657ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2349 (~introductions) 23 ==> Welcome  When:Aug21'20-00:03:27 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:03:27 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:02:42
+Respond: user:crash bot:postgres ip: (~introductions) 24  casa ==> Foifoifoifoifoifoifoifoifoifoifoifoi  When:Aug21'20-00:03:35 Why:~introductions.3.0.~control.1.0   F:2663ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2350 (~introductions) 24 ==> Welcome  When:Aug21'20-00:04:08 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:04:08 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:03:35
+Respond: user:crash bot:postgres ip: (~introductions) 25  oi ==> HTTP/1.1 200 OK  Date: Fri, 21 Aug 2020 03:04:11 GMT  Server: Apache  X-Frame-Options: sameorigin, allow-from http://tekstlab.uio.no/, allow-from https://tekstlab.uio.no/  Content-Security-Policy: frame-ancestors 'self' '*.uit.no'  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload  Vary: Accept-Encoding  Content-Length: 246  Content-Type: text/plain; charset=utf-8  Content-Language: pt  <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">oi</font></b>   <font color="maroon">[ói]</font>  &lt;ALT:ói&gt; <font color="blue"><b>IN</b> </font> <font color="darkgreen">@ADVL</font> §TOP #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>  When:Aug21'20-00:04:12 Why:~introductions.3.0.~control.1.0   F:2730ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2351 (~introductions) 25 ==> Welcome  When:Aug21'20-00:04:57 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:04:57 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:04:12
+Respond: user:crash bot:postgres ip: (~introductions) 26  oi ==> HTTP/1.1 200 OK  Date: Fri, 21 Aug 2020 03:05:01 GMT  Server: Apache  X-Frame-Options: sameorigin, allow-from http://tekstlab.uio.no/, allow-from https://tekstlab.uio.no/  Content-Security-Policy: frame-ancestors 'self' '*.uit.no'  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload  Vary: Accept-Encoding  Content-Length: 246  Content-Type: text/plain; charset=utf-8  Content-Language: pt  <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">oi</font></b>   <font color="maroon">[ói]</font>  &lt;ALT:ói&gt; <font color="blue"><b>IN</b> </font> <font color="darkgreen">@ADVL</font> §TOP #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>  When:Aug21'20-00:05:02 Why:~introductions.3.0.~control.1.0   F:2697ms 
+Command: :trace none
+ trace = 0 (0x0)
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2352 (~introductions) 26 ==> Welcome  When:Aug21'20-00:05:18 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:05:18 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:05:02
+Respond: user:crash bot:postgres ip: (~introductions) 27  oi ==> HTTP/1.1 200 OK  Date: Fri, 21 Aug 2020 03:05:21 GMT  Server: Apache  X-Frame-Options: sameorigin, allow-from http://tekstlab.uio.no/, allow-from https://tekstlab.uio.no/  Content-Security-Policy: frame-ancestors 'self' '*.uit.no'  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload  Vary: Accept-Encoding  Content-Length: 246  Content-Type: text/plain; charset=utf-8  Content-Language: pt  <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">oi</font></b>   <font color="maroon">[ói]</font>  &lt;ALT:ói&gt; <font color="blue"><b>IN</b> </font> <font color="darkgreen">@ADVL</font> §TOP #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>  When:Aug21'20-00:05:22 Why:~introductions.3.0.~control.1.0   F:2651ms 
+Start: user:crash bot:postgres ip: rand:2353 (~introductions) 27 ==> Welcome  When:Aug21'20-00:07:15 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:05:18 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:05:22
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2353 (~introductions) 27 ==> Welcome  When:Aug21'20-00:07:19 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:07:19 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:05:22
+Respond: user:crash bot:postgres ip: (~introductions) 28  casa ==> HTTP/1.1 200 OK  Date: Fri, 21 Aug 2020 03:07:23 GMT  Server: Apache  X-Frame-Options: sameorigin, allow-from http://tekstlab.uio.no/, allow-from https://tekstlab.uio.no/  Content-Security-Policy: frame-ancestors 'self' '*.uit.no'  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload  Vary: Accept-Encoding  Transfer-Encoding: chunked  Content-Type: text/plain; charset=utf-8  Content-Language: pt  <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">casa</font></b>   <font color="maroon">[casa]</font>  &lt;build&gt; <font color="blue"><b>N</b> F S </font> <font color="darkgreen">@NPHR</font> §DENOM #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>  When:Aug21'20-00:07:24 Why:~introductions.3.0.~control.1.0   F:2648ms 
+Respond: user:crash bot:postgres ip: (~introductions) 29  olha eu aqui ==> HTTP/1.1 400 Bad Request  Date: Fri, 21 Aug 2020 03:07:39 GMT  Server: Apache  X-Frame-Options: sameorigin, allow-from http://tekstlab.uio.no/, allow-from https://tekstlab.uio.no/  Content-Security-Policy: frame-ancestors 'self' '*.uit.no'  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload  Content-Length: 226  Connection: close  Content-Type: text/html; charset=iso-8859-1  <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>400 Bad Request</title> </head><body> <h1>Bad Request</h1> <p>Your browser sent a request that this server could not understand.<br /> </p> </body></html>  When:Aug21'20-00:07:39 Why:~introductions.3.0.~control.1.0   F:730ms 
+Command: :trace tcp
+Enabled simple: echo 
+Enabled deep detail: tcp 
+Disabled simple: match ruleflow variables 
+Disabled mild detail: output pattern input prepare 
+Disabled deep detail: always fact hierarchy infer json label macro pos query sample sql substitute topic user userfact treetagger usercache varassign 
+ trace = 536903681 (0x20008001)
+Respond: user:crash bot:postgres ip: (~introductions) 30  olha eu aqui ==> HTTP/1.1 400 Bad Request  Date: Fri, 21 Aug 2020 03:08:01 GMT  Server: Apache  X-Frame-Options: sameorigin, allow-from http://tekstlab.uio.no/, allow-from https://tekstlab.uio.no/  Content-Security-Policy: frame-ancestors 'self' '*.uit.no'  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload  Content-Length: 226  Connection: close  Content-Type: text/html; charset=iso-8859-1  <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>400 Bad Request</title> </head><body> <h1>Bad Request</h1> <p>Your browser sent a request that this server could not understand.<br /> </p> </body></html>  When:Aug21'20-00:08:01 Why:~introductions.3.0.~control.1.0   F:980ms 
+Start: user:crash bot:postgres ip: rand:2356 (~introductions) 30 ==> Welcome  When:Aug21'20-00:08:24 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:07:19 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:08:01
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2356 (~introductions) 30 ==> Welcome  When:Aug21'20-00:08:28 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:08:28 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:08:01
+Respond: user:crash bot:postgres ip: (~introductions) 31  olha eu ==> HTTP/1.1 400 Bad Request  Date: Fri, 21 Aug 2020 03:08:33 GMT  Server: Apache  X-Frame-Options: sameorigin, allow-from http://tekstlab.uio.no/, allow-from https://tekstlab.uio.no/  Content-Security-Policy: frame-ancestors 'self' '*.uit.no'  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload  Content-Length: 226  Connection: close  Content-Type: text/html; charset=iso-8859-1  <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>400 Bad Request</title> </head><body> <h1>Bad Request</h1> <p>Your browser sent a request that this server could not understand.<br /> </p> </body></html>  When:Aug21'20-00:08:33 Why:~introductions.3.0.~control.1.0   F:1571ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2357 (~introductions) 31 ==> Welcome  When:Aug21'20-00:09:05 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:09:04 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:08:33
+Respond: user:crash bot:postgres ip: (~introductions) 32  Denovo ==> HTTP/1.1 200 OK  Date: Fri, 21 Aug 2020 03:09:11 GMT  Server: Apache  X-Frame-Options: sameorigin, allow-from http://tekstlab.uio.no/, allow-from https://tekstlab.uio.no/  Content-Security-Policy: frame-ancestors 'self' '*.uit.no'  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload  Vary: Accept-Encoding  Transfer-Encoding: chunked  Content-Type: text/plain; charset=utf-8  Content-Language: pt  <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">Denovo</font></b>   <font color="maroon">[Denovo]</font>  &lt;hum&gt; &lt;*&gt; &lt;heur&gt; <font color="blue"><b>PROP</b> M/F S </font> <font color="darkgreen">@NPHR</font> §DENOM #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>  When:Aug21'20-00:09:13 Why:~introductions.3.0.~control.1.0   F:3497ms 
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :trace TRACE_TCP
+ trace = 0 (0x0)
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2358 (~introductions) 32 ==> Welcome  When:Aug21'20-00:19:32 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:19:31 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:09:13
+RAW TCP: https://visl.sdu.dk/cgi-bin/visl.pt.cgi port:80 GET tcpopen- failed to connect to server or died in transmission
+failed to connect to server https://visl.sdu.dk 80
+Respond: user:crash bot:postgres ip: (~introductions) 33  oi ==> Tcpopen- failed to connect to server or died in transmission    When:Aug21'20-00:19:36 Why:~introductions.4.0.~control.1.0   F:5ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2359 (~introductions) 33 ==> Welcome  When:Aug21'20-00:20:16 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:20:16 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:19:36
+RAW TCP: https://visl.sdu.dk/cgi-bin/visl.pt.cgi?parser=roles&visual=cg-dep&symbol=cg&inputlang=pt&text=oi port:80 GET tcpopen- failed to connect to server or died in transmission
+failed to connect to server https://visl.sdu.dk 80
+Respond: user:crash bot:postgres ip: (~introductions) 34  oi ==> Tcpopen- failed to connect to server or died in transmission    When:Aug21'20-00:20:18 Why:~introductions.4.0.~control.1.0   F:3ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2360 (~introductions) 34 ==> Welcome  When:Aug21'20-00:20:33 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:20:33 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:20:18
+tcpopen- an url was not given
+Respond: user:crash bot:postgres ip: (~introductions) 35  oi ==> Tcpopen- an url was not given    When:Aug21'20-00:20:34 Why:~introductions.4.0.~control.1.0   F:3ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2361 (~introductions) 35 ==> Welcome  When:Aug21'20-00:21:16 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:21:16 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:20:34
+RAW TCP: https://visl.sdu.dk/cgi-bin/visl.pt.cgi?parser=roles&visual=cg-dep&symbol=cg&inputlang=pt&text=oi port:80 GET tcpopen- failed to connect to server or died in transmission
+failed to connect to server https://visl.sdu.dk 80
+Respond: user:crash bot:postgres ip: (~introductions) 36  oi ==> Tcpopen- failed to connect to server or died in transmission    When:Aug21'20-00:21:18 Why:~introductions.4.0.~control.1.0   F:2ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2362 (~introductions) 36 ==> Welcome  When:Aug21'20-00:24:43 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:24:43 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:21:18
+RAW TCP: "de.sempar.ims.uni-stuttgart.de/parse" port:80 POST sentence=ich+bin&returnType=rdftcpopen- failed to connect to server or died in transmission
+failed to connect to server "de.sempar.ims.uni-stuttgart.de 80
+Respond: user:crash bot:postgres ip: (~introductions) 37  oi ==> Tcpopen- failed to connect to server or died in transmission    When:Aug21'20-00:24:44 Why:~introductions.4.0.~control.1.0   F:2ms 
+Start: user:crash bot:postgres ip: rand:2363 (~introductions) 37 ==> Welcome  When:Aug21'20-00:26:01 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:24:43 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:24:44
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2363 (~introductions) 37 ==> Welcome  When:Aug21'20-00:26:04 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:26:04 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:24:44
+RAW TCP: "de.sempar.ims.uni-stuttgart.de/parse" port:80 POST sentence=ich+bin&returnType=rdftcpopen- failed to connect to server or died in transmission
+failed to connect to server "de.sempar.ims.uni-stuttgart.de 80
+Respond: user:crash bot:postgres ip: (~introductions) 38  oi ==> Tcpopen- failed to connect to server or died in transmission    When:Aug21'20-00:26:06 Why:~introductions.4.0.~control.1.0   F:6ms 
+Start: user:crash bot:postgres ip: rand:2364 (~introductions) 38 ==> Welcome  When:Aug21'20-00:30:08 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:26:04 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:26:06
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2364 (~introductions) 38 ==> Welcome  When:Aug21'20-00:30:12 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:30:11 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:26:06
+Respond: user:crash bot:postgres ip: (~introductions) 39  oi ==> HTTP/1.1 200 OK  Date: Fri, 21 Aug 2020 03:30:14 GMT  Server: Apache  X-Frame-Options: sameorigin, allow-from http://tekstlab.uio.no/, allow-from https://tekstlab.uio.no/  Content-Security-Policy: frame-ancestors 'self' '*.uit.no'  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload  Vary: Accept-Encoding  Content-Length: 246  Content-Type: text/plain; charset=utf-8  Content-Language: pt  <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">oi</font></b>   <font color="maroon">[ói]</font>  &lt;ALT:ói&gt; <font color="blue"><b>IN</b> </font> <font color="darkgreen">@ADVL</font> §TOP #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>  When:Aug21'20-00:30:16 Why:~introductions.3.0.~control.1.0   F:2835ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2365 (~introductions) 39 ==> Welcome  When:Aug21'20-00:30:33 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:30:33 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:30:16
+Respond: user:crash bot:postgres ip: (~introductions) 40  oi ==> HTTP/1.1 200 OK  Date: Fri, 21 Aug 2020 03:30:35 GMT  Server: Apache  X-Frame-Options: sameorigin, allow-from http://tekstlab.uio.no/, allow-from https://tekstlab.uio.no/  Content-Security-Policy: frame-ancestors 'self' '*.uit.no'  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload  Vary: Accept-Encoding  Content-Length: 246  Content-Type: text/plain; charset=utf-8  Content-Language: pt  <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">oi</font></b>   <font color="maroon">[ói]</font>  &lt;ALT:ói&gt; <font color="blue"><b>IN</b> </font> <font color="darkgreen">@ADVL</font> §TOP #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>  When:Aug21'20-00:30:37 Why:~introductions.3.0.~control.1.0   F:2626ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2366 (~introductions) 40 ==> Welcome  When:Aug21'20-00:31:10 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:31:10 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:30:37
+Respond: user:crash bot:postgres ip: (~introductions) 41  oi ==> <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">oi</font></b>   <font color="maroon">[ói]</font>  &lt;ALT:ói&gt; <font color="blue"><b>IN</b> </font> <font color="darkgreen">@ADVL</font> §TOP #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>  When:Aug21'20-00:31:14 Why:~introductions.3.0.~control.1.0   F:2407ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2367 (~introductions) 41 ==> Welcome  When:Aug21'20-00:31:30 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:31:30 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:31:14
+Respond: user:crash bot:postgres ip: (~introductions) 42  oi ==> <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">oi</font></b>   <font color="maroon">[ói]</font>  &lt;ALT:ói&gt; <font color="blue"><b>IN</b> </font> <font color="darkgreen">@ADVL</font> §TOP #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>  When:Aug21'20-00:31:35 Why:~introductions.3.0.~control.1.0   F:2605ms 
+Start: user:crash bot:postgres ip: rand:2368 (~introductions) 42 ==> Welcome  When:Aug21'20-00:36:16 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:31:30 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:31:35
+Respond: user:crash bot:postgres ip: (~introductions) 43  oi ==> <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">oi</font></b>   <font color="maroon">[ói]</font>  &lt;ALT:ói&gt; <font color="blue"><b>IN</b> </font> <font color="darkgreen">@ADVL</font> §TOP #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>  When:Aug21'20-00:36:22 Why:~introductions.3.0.~control.1.0   F:2618ms 
+Start: user:crash bot:postgres ip: rand:2369 (~introductions) 43 ==> Welcome  When:Aug21'20-00:39:25 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:31:30 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:36:22
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2369 (~introductions) 43 ==> Welcome  When:Aug21'20-00:39:29 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:39:29 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:36:22
+Respond: user:crash bot:postgres ip: (~introductions) 44  opa ==> <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">opa</font></b>   <font color="maroon">[opa]</font>  <font color="blue"><b>IN</b> </font> <font color="darkgreen">@ADVL</font> §TOP #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>  When:Aug21'20-00:39:34 Why:~introductions.3.0.~control.1.0   F:3370ms 
+Start: user:crash bot:postgres ip: rand:2370 (~introductions) 44 ==> Welcome  When:Aug21'20-00:40:08 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:39:29 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:39:34
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2370 (~introductions) 44 ==> Welcome  When:Aug21'20-00:40:12 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:40:11 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:39:34
+Respond: user:crash bot:postgres ip: (~introductions) 45  oi ==> <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">oi</font></b>   <font color="maroon">[ói]</font>  &lt;ALT:ói&gt; <font color="blue"><b>IN</b> </font> <font color="darkgreen">@ADVL</font> §TOP #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>  When:Aug21'20-00:40:16 Why:~introductions.3.0.~control.1.0   F:3045ms 
+Start: user:crash bot:postgres ip: rand:2371 (~introductions) 45 ==> Welcome  When:Aug21'20-00:41:41 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:40:11 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:40:16
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2371 (~introductions) 45 ==> Welcome  When:Aug21'20-00:41:44 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:41:44 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:40:16
+Respond: user:crash bot:postgres ip: (~introductions) 46  oi ==> <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">oi</font></b>   <font color="maroon">[ói]</font>  &lt;ALT:ói&gt; <font color="blue"><b>IN</b> </font> <font color="darkgreen">@ADVL</font> §TOP #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>  When:Aug21'20-00:41:48 Why:~introductions.3.0.~control.1.0   F:2659ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2372 (~introductions) 46 ==> Welcome  When:Aug21'20-00:42:39 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:42:39 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:41:48
+Respond: user:crash bot:postgres ip: (~introductions) 47  eita buceta ==> <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>400 Bad Request</title> </head><body> <h1>Bad Request</h1> <p>Your browser sent a request that this server could not understand.<br /> </p> </body></html>  When:Aug21'20-00:42:43 Why:~introductions.3.0.~control.1.0   F:1586ms 
+Start: user:crash bot:postgres ip: rand:2373 (~introductions) 47 ==> Welcome  When:Aug21'20-00:50:26 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:42:39 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:42:43
+Command: :build Harry
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2373 (~introductions) 47 ==> Welcome  When:Aug21'20-00:51:05 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:51:05 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:42:43
+Respond: user:crash bot:postgres ip: (~introductions) 48  oi ==> Oi "'"  When:Aug21'20-00:51:06 Why:~introductions.3.0.~control.1.0   F:4ms 
+Respond: user:crash bot:postgres ip: (~introductions) 49  opa ==> Opa "'"  When:Aug21'20-00:51:10 Why:~introductions.3.0.~control.1.0   F:7ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2375 (~introductions) 49 ==> Welcome  When:Aug21'20-00:51:33 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:51:33 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:51:10
+Respond: user:crash bot:postgres ip: (~introductions) 50  oi ==> <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">"</font></b>   <font color="maroon">[]]</font>  PU <font color="darkgreen">@PU</font> #1-&gt;0 <br><dt><b><font color="maroon">oi</font></b>   <font color="maroon">[ói]</font>  &lt;ALT:ói&gt; &lt;*1&gt; &lt;*2&gt; <font color="blue"><b>IN</b> </font> <font color="darkgreen">@NPHR</font> §TOP #2-&gt;0 <br><dt><b><font color="maroon">"</font></b>   <font color="maroon">[]]</font>  PU <font color="darkgreen">@PU</font> #3-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>  When:Aug21'20-00:51:37 Why:~introductions.3.0.~control.1.0   F:2627ms 
+Respond: user:crash bot:postgres ip: (~introductions) 51  olha eu aqui ==> <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"> <html><head> <title>400 Bad Request</title> </head><body> <h1>Bad Request</h1> <p>Your browser sent a request that this server could not understand.<br /> </p> </body></html>  When:Aug21'20-00:51:43 Why:~introductions.3.0.~control.1.0   F:981ms 
+Start: user:crash bot:postgres ip: rand:2377 (~introductions) 51 ==> Welcome  When:Aug21'20-00:54:28 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:51:33 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:51:43
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2377 (~introductions) 51 ==> Welcome  When:Aug21'20-00:54:32 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:54:32 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:51:43
+Respond: user:crash bot:postgres ip: (~introductions) 52  oi ==> Welcome  When:Aug21'20-00:54:34 Why:~introductions.0.0.~control.1.0   F:13ms 
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2378 (~introductions) 52 ==> Welcome  When:Aug21'20-00:56:41 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-00:56:41 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:54:34
+Respond: user:crash bot:postgres ip: (~introductions) 53  opa ==> Welcome  When:Aug21'20-00:56:43 Why:~introductions.0.0.~control.1.0   F:25ms 
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2379 (~introductions) 53 ==> Welcome  When:Aug21'20-01:01:25 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-01:01:24 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-00:56:43
+Respond: user:crash bot:postgres ip: (~introductions) 54  oi ==> <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">oi</font></b>   <font color="maroon">[ói]</font>  &lt;ALT:ói&gt; <font color="blue"><b>IN</b> </font> <font color="darkgreen">@ADVL</font> §TOP #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>  When:Aug21'20-01:01:30 Why:~introductions.3.0.~control.1.0   F:3236ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2380 (~introductions) 54 ==> Welcome  When:Aug21'20-01:01:48 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-01:01:48 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-01:01:30
+Respond: user:crash bot:postgres ip: (~introductions) 55  opa ==> <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">opa</font></b>   <font color="maroon">[opa]</font>  <font color="blue"><b>IN</b> </font> <font color="darkgreen">@ADVL</font> §TOP #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>  When:Aug21'20-01:01:53 Why:~introductions.3.0.~control.1.0   F:2407ms 
+SkipOOB failed [A [A [A [A [A
+Start: user:crash bot:postgres ip: rand:2381 (~introductions) 55 ==> Welcome  When:Aug21'20-01:02:27 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-01:01:48 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-01:01:53
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2381 (~introductions) 55 ==> Welcome  When:Aug21'20-01:07:15 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-01:07:15 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-01:01:53
+Respond: user:crash bot:postgres ip: (~introductions) 56  opa ==> <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">opa</font></b>   <font color="maroon">[opa]</font>  <font color="blue"><b>IN</b> </font> <font color="darkgreen">@ADVL</font> §TOP #1-&gt;0 <br>&lt;/ß&gt;<br><br></dl><br>  When:Aug21'20-01:07:20 Why:~introductions.3.0.~control.1.0   F:3223ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2382 (~introductions) 56 ==> Welcome  When:Aug21'20-01:07:52 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-01:07:51 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-01:07:20
+Respond: user:crash bot:postgres ip: (~introductions) 57  txt ==> AuthorizedIP.txt changes.txt HOW TO MAKE A RELEASE.txt license.txt version.txt  When:Aug21'20-01:07:55 Why:~introductions.3.0.~control.1.0   F:10ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2383 (~introductions) 57 ==> Welcome  When:Aug21'20-01:08:23 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-01:08:23 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-01:07:55
+Respond: user:crash bot:postgres ip: (~introductions) 58  opa ==> Opa  When:Aug21'20-01:08:25 Why:~introductions.3.0.~control.1.0   F:7ms 
+Start: user:crash bot:postgres ip: rand:2384 (~introductions) 58 ==> Welcome  When:Aug21'20-01:08:39 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-01:08:23 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-01:08:25
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2384 (~introductions) 58 ==> Welcome  When:Aug21'20-01:08:50 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-01:08:50 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-01:08:25
+Respond: user:crash bot:postgres ip: (~introductions) 59  olha <> eu auqi ==> Olha auqi  When:Aug21'20-01:08:54 Why:~introductions.3.0.~control.1.0   F:32ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2385 (~introductions) 59 ==> Welcome  When:Aug21'20-01:09:15 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-01:09:15 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-01:08:54
+Respond: user:crash bot:postgres ip: (~introductions) 60  <> ==> &lt;&gt;  When:Aug21'20-01:09:17 Why:~introductions.3.0.~control.1.0   F:11ms 
+Respond: user:crash bot:postgres ip: (~introductions) 61  olha <> aqui ==> Olha &lt;&gt; aqui  When:Aug21'20-01:09:21 Why:~introductions.3.0.~control.1.0   F:29ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2387 (~introductions) 61 ==> Welcome  When:Aug21'20-01:10:28 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-01:10:28 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-01:09:21
+Respond: user:crash bot:postgres ip: (~introductions) 62  olha eu <> aqui ==> Arg  When:Aug21'20-01:10:33 Why:~introductions.3.0.~control.1.0   F:26ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2388 (~introductions) 62 ==> Welcome  When:Aug21'20-01:10:47 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-01:10:46 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-01:10:33
+Respond: user:crash bot:postgres ip: (~introductions) 63  olha eu aquyi ==> {olha eu aquyi/ /%20}  When:Aug21'20-01:10:53 Why:~introductions.3.0.~control.1.0   F:33ms 
+Start: user:crash bot:postgres ip: rand:2389 (~introductions) 63 ==> Welcome  When:Aug21'20-01:19:49 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-01:10:46 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-01:10:53
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2389 (~introductions) 63 ==> Welcome  When:Aug21'20-01:19:54 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-01:19:54 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-01:10:53
+Respond: user:crash bot:postgres ip: (~introductions) 64  eita buceta ==> Welcome  When:Aug21'20-01:20:03 Why:~introductions.0.0.~control.1.0   F:6392ms 
+Respond: user:crash bot:postgres ip: (~introductions) 65  oi ==> Welcome  When:Aug21'20-01:20:35 Why:~introductions.0.0.~control.1.0   F:5675ms 
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2391 (~introductions) 65 ==> Welcome  When:Aug21'20-01:20:47 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-01:20:47 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-01:20:35
+Respond: user:crash bot:postgres ip: (~introductions) 66  oi ==> Welcome  When:Aug21'20-01:20:55 Why:~introductions.0.0.~control.1.0   F:5827ms 
+Start: user:crash bot:postgres ip: rand:2392 (~introductions) 66 ==> Welcome  When:Aug21'20-01:21:48 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-01:20:47 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-01:20:55
+Command: :build Harry
+Start: user:crash bot:postgres ip: rand:2392 (~introductions) 66 ==> Welcome  When:Aug21'20-01:21:52 Why:~introductions.0.0.~control.0.0  Version:10.5 Build0:Aug20'20-19:33:41 Build1:Aug21'20-01:21:52 0:Aug20'20-19:34:25 F:1597972126-2.0.0.1.1.0 P:Aug21'20-01:20:55
+Respond: user:crash bot:postgres ip: (~introductions) 67  eita buceta ==> <dl><br><br>&lt;ß&gt;<br><br><dt><b><font color="maroon">eita</font></b>   <font color="maroon">[eita]</font>  &lt;DERS&gt; <font color="blue"><b>N</b> F S </font> <font color="darkgreen">@NPHR</font> §DENOM #1-&gt;0 <br><dt><b><font color="maroon">buceta</font></b>   <font color="maroon">[buceta]</font>  &lt;ALT:xxxeta&gt; &lt;DERS&gt; <font color="blue"><b>N</b> F S </font> <font color="darkgreen">@NPHR</font> §DENOM #2-&gt;1 <br>&lt;/ß&gt;<br><br></dl><br>  When:Aug21'20-01:21:57 Why:~introductions.3.0.~control.1.0   F:2450ms 
+myexit called with Linux Signal code 1myexit called with crash exit

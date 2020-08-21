@@ -1,0 +1,49 @@
+﻿USERS/topic_crash_postgres.txt
+jul2116 Aug20'20-19:34:25 Aug21'20-01:20:55 1597972126-2.0.0.1.1.0 |
+67 66 0 DY 0 2 2 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introductions #pending
+#`end topics
+$input=oi
+$cs_randindex=2326
+$cs_bot=Postgres
+$cs_login=crash
+$cs_token=163583
+$cs_control_main=~control
+$userprompt=crash: >
+$botprompt=MYSQL: 
+$user_agent=User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+$cs_trace=536903681
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ olha <> aqui
+ olha eu <> aqui
+ olha eu aquyi
+ eita buceta
+ oi
+ oi
+#`end user
+ Welcome
+ Opa
+ Welcome
+ Welcome
+ Olha auqi
+ Welcome
+ &lt;&gt;
+ Olha &lt;&gt; aqui
+ Welcome
+ Arg
+ Welcome
+ {olha eu aquyi/ /%20}
+ Welcome
+ Welcome
+ Welcome
+ Welcome
+ Welcome
+ Welcome
+ Welcome
+ Welcome
+#`end chatbot
